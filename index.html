@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        button:hover {
+            background-color: blue;
+            color:white;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <header id="img">
+        <img src="ccpx.png" alt="" width="150">
+    </header>
+    <section class="main-content"> <!-- adicionei esta sessão entre as duas divs-->
+        <div class="texto">
+            <h1 id="titulo">REVIVA O EPICO</h1>
+            <h2>DE 01 A 04 DE DEZEMBRO</h2>
+            <!-- inclui o texto dentro da tag <p>-->
+            <p id="data">Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos <br>
+                em casa". Sim, em dezembro de 2022, <br>
+                teremos a volta da CCXP física. Mas não será <br>
+                qualquer CCXP, vai ser a maior de todos os <br>
+                tempos. Prepare-se para visitar seus <br>
+                universos favoritos, explorar o Artists' Valley, <br>
+                se emocionar nos auditórios e encontrar <br>
+                aventuras épicas a cada passo pelos nossos <br>
+                corredores.
+            </p>
+        </div>
+        <!-- adicionei essa div container pra juntar a timer com os outros elementos e ficar num bloco só-->
+        <div class="container">
+            <div class="timer">
+                <div>
+                    <h1 id="dia"> 03 </h1> 
+                        <div class="time">D</div>
+                </div>
+
+                <div>
+                    <h1 id="hora"> 01 </h1> 
+                        <div class="time">H</div>
+                </div>
+
+                <div>
+                    <h1 id="minuto"> 01 </h1> 
+                        <div class="time">M</div>
+                </div>
+
+                <div>
+                    <h1 id="segundo"> 01 </h1> 
+                        <div class="time">S</div>    
+                </div>
+            </div>
+
+            <h3 id="text">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3> <!-- Adicionei a tag <h3> entre esta frase -->
+            <!-- adicionei o video pra modelar já a sessão principal-->
+            <video id="vid" auto play muted controls loop><source src="Arlequina.mp4">
+    </section> <!-- adicionei esta sessão entre as duas divs-->
+
+    <!-- adicionei uma sessão nesta parte e uma div para as imagens-->
+    <section class="days">
+        <div>
+            <div id="mensagem">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</div>
+            <img src="quinta feira.png" alt="" width="200">
+            <img src="sextafeira.png" alt="" width="200">
+            <img src="esgotado.png" alt="" width="200">
+            <img src="domingo.png" alt="" width="200">
+
+            <button name="button">GARANTA O SEU</button>
+        </div>
+        
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
